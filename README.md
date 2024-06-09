@@ -1,0 +1,4 @@
+# nixbox
+
+Sandbox for Nix.
+
