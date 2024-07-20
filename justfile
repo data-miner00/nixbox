@@ -14,6 +14,6 @@ registry:
   nix registry list
 
 build:
-  # nix-instantiate ./src/derivation.nix
+  # nix-instantiate ./pkgs/derivation.nix
   # nix-store --realise /nix/store/vgyafx7gkp983zddxqljap50qab8yx1f-my-derivation.drv
   cat /nix/store/50mbcy2pcjq4ms08nyl6gff8k67wisvg-my-derivation 
