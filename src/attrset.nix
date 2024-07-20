@@ -5,6 +5,12 @@ let
     # To have dynamic keys, need to encapsulate into ${}
     # Optionally can have double quotes enclosed too: "${}"
     ${key} = secret;
+    
+    # The key can be interpolated as well
+    "mykey:${key}" = secret;
+
+    # Shortform for X = X
+    inherit key;
   };
 in
   createSecret { key = "mykey"; secret = "mysecret"; other = false; }
