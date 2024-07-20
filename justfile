@@ -17,3 +17,8 @@ build:
   # nix-instantiate ./pkgs/derivation.nix
   # nix-store --realise /nix/store/vgyafx7gkp983zddxqljap50qab8yx1f-my-derivation.drv
   cat /nix/store/50mbcy2pcjq4ms08nyl6gff8k67wisvg-my-derivation 
+
+# Easier build
+# This will create a symlink named `result` that points to the derivation in nix store
+ez-build:
+  nix build --file ./pkgs/simplified-derivation.nix
