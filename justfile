@@ -7,6 +7,9 @@ example:
   nix eval --file src/main.nix
   nix eval --file src/nixpkgs.nix
 
+assert-failed:
+  nix eval --file src/assertion.nix
+
 debug:
   nix eval --file src/main.nix --show-trace
 
