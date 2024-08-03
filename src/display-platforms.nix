@@ -1,6 +1,9 @@
 # Displays a list of supported architectures
 let
   pkgs = import <nixpkgs> {};
+
+  # It's like using static builtins.attrNames in C#
+  inherit (builtins) attrNames;
 in
-  builtins.attrNames pkgs.lib.platforms
+  attrNames pkgs.lib.platforms
 
