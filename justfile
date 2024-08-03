@@ -6,6 +6,7 @@ example:
   nix eval --file src/attrset.nix
   nix eval --file src/main.nix
   nix eval --file src/nixpkgs.nix
+  nix eval --file src/updateattr.nix
 
 assert-failed:
   nix eval --file src/assertion.nix
