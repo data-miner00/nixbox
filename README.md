@@ -10,4 +10,5 @@ Sandbox for Nix.
 - [Zero to Nix](https://zero-to-nix.com/)
 - [Practical Nix Flakes](https://serokell.io/blog/practical-nix-flakes)
 - [Nix Pills](https://nixos.org/guides/nix-pills/)
-
+- [flake.nix inside git repo issue](https://github.com/NixOS/nix/issues/6642)
+- [Nix Dev Environments | Declare Your Coding Projects](https://www.youtube.com/watch?v=yQwW8dkuHqw)
