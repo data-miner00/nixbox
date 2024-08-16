@@ -12,3 +12,5 @@ Sandbox for Nix.
 - [Nix Pills](https://nixos.org/guides/nix-pills/)
 - [flake.nix inside git repo issue](https://github.com/NixOS/nix/issues/6642)
 - [Nix Dev Environments | Declare Your Coding Projects](https://www.youtube.com/watch?v=yQwW8dkuHqw)
+- [Nixhub.io](https://www.nixhub.io/)
+- [NixOS Tutorial - Networking Essentials](https://www.youtube.com/watch?v=UW1LzSAoRPE)
